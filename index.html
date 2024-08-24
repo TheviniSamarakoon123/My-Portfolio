@@ -33,14 +33,14 @@
             <h3>Hi, Myself</h3>
             <h1>Thevini Samarakoon</h1>
             <h1>And I'm a <span class="multiple-text"> </span></h1>
-            <p>A student pursuing a strong foundation in Software Engineering excels in collaborative environments, demonstrating a passion for technology, user-friendly web development, front-end development, and UI/UX designing contributing effectively to software development and achieving excellence in every project.</p>
+            <p>A student pursuing a strong foundation in Software Engineering excels in collaborative environments, demonstrating a passion for technology, user-friendly app development, web development, front-end development, and UI/UX designing contributing effectively to software development and achieving excellence in every project.</p>
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/thevini-samarakoon-ba86312a5/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/TheviniSamarakoon123"><i class="fa-brands fa-github"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=100077978525626"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_thevini_samarakoon_/"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="Thevini_Samarakoon.pdf" class="btn">Download CV</a>
         </div>
         <div class="home-img">
             <img src="profiledp.png" alt="">
@@ -56,8 +56,7 @@
        <div class="about-concent">
          <h2 class="heading">About <span>Me</span></h2>
          <h3>Frontend Developer</h3>
-         <p>I am Thevini Samarakoon, a 2nd-year undergraduate software engineering student at the Informatics Institute of Technology.I am choosing Web Development and Mobile Application as my path. So I am learning about them. There is also more interest in Frontend Development.</p>
-         <a href="#" class="btn">Read More</a>
+         <p>I am Thevini Samarakoon, a 2nd-year undergraduate software engineering student at the Informatics Institute of Technology.I am choosing Web Development and Mobile Application as my path. So I am learning about them. There is also more interest in Frontend Development and UI/UX Designing.</p>
        </div>
     </section>
 
@@ -70,22 +69,20 @@
                 <i class="fa-solid fa-code"></i>
                 <h3>Web Development</h3>
                 <p>Web development is the art of turning dreams into digital realities.</p>
-                <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <i class="fa-solid fa-palette"></i>
                 <h3>UI/UX Designing</h3>
                 <p>UI/UX design is where creativity meets functionality to craft seamless experiences.</p>
-                <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <i class="fa-brands fa-android"></i>
                 <h3>App Development</h3>
                 <p>App development is about transforming ideas into powerful, portable solutions.</p>
-                <a href="#" class="btn">Read More</a>
             </div>
+
         </div>
     </section>
 
@@ -96,18 +93,18 @@
             <div class="protfolio-box">
                 <img src="1.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>bala bala</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <h4>UI/UX Design</h4>
+                    <p>Newest UI/UX design project for T Bell, a cutting-edge food delivery app designed to bring mouthwatering meals right to your door!</p>
+                    <a href="https://www.figma.com/proto/Vea9wUgKcxMnqhVWnxEGq4/Food-App?node-id=0-1&t=mkqrK5260RwAk1uf-1 " class = "btn"> Click Me</a>
                 </div>
             </div>
 
             <div class="protfolio-box">
                 <img src="2.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>bala bala</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <h4>Frontend Development</h4>
+                    <p>Resturant Landing Page </p>
+                    <a href="https://restaurant-landing-page-three-omega.vercel.app/" class = "btn"> Click Me</a>
                 </div>
             </div>
 
@@ -116,7 +113,7 @@
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>bala bala</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="" class = "btn"> Click Me</a>
                 </div>
             </div>
 
@@ -125,7 +122,7 @@
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>bala bala</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="" class = "btn"> Click Me</a>
                 </div>
             </div>
 
@@ -134,7 +131,7 @@
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>bala bala</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="" class = "btn"> Click Me</a>
                 </div>
             </div>
 
@@ -143,7 +140,7 @@
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>bala bala</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="" class = "btn"> Click Me</a>
                 </div>
             </div>
         </div>
@@ -153,22 +150,25 @@
     <!--CONTACT SECTION DESIGN -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="text" placeholder="Email Address">
+        <form id="contactForm" action="" onsubmit="sendEmail(); return false;">
+            <div class="input-box"><input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="emailAddress" placeholder="Email Address" required>
             </div>
-
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+                <div class="input-box"><input type="number" id="mobileNumber" placeholder="Mobile Number" required>
+                    <input type="text" id="emailSubject" placeholder="Email Subject" required>
+                </div>
+                    <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send Mail" class="btn">
         </form>
     </section>
+    <script>function sendEmail() {     
+        const fullName = document.getElementById('fullName').value;     
+        const emailAddress = document.getElementById('emailAddress').value;     
+        const mobileNumber = document.getElementById('mobileNumber').value;     
+        const emailSubject = document.getElementById('emailSubject').value;     
+        const message = document.getElementById('message').value;     
+        const mailtoLink = `mailto:thevinisamarakoon123@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent("Name: " + fullName + "\nEmail: " + emailAddress + "\nMobile: " + mobileNumber + "\n\nMessage:\n" + message)}`;     window.location.href = mailtoLink; 
+        } </script>
 
     <!--FOOTER DESIGN -->
     <footer class="footer">
